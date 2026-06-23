@@ -1,0 +1,57 @@
+{
+  "brand": "Example Wellness Studio",
+  "campaign": "starter_offer_202606",
+  "landingUrl": "https://example.com/lp/starter-offer",
+  "offer": {
+    "name": "Starter Clarity Package",
+    "headline": "Assessment + 3 coaching sessions",
+    "proof": "Assessment, written summary, and three guided sessions",
+    "cta": "LEARN_MORE"
+  },
+  "creatives": [
+    {
+      "id": "text_burnout_reset",
+      "format": "text",
+      "situation": "burnout reset",
+      "hook": "Burnout needs structure",
+      "punch": "not another tab",
+      "proof": "Assessment + written summary + 3 sessions",
+      "message": "Start with an assessment, then turn the result into three guided sessions.",
+      "cta": "LEARN_MORE",
+      "imageBrief": "Warm desk scene, notebook and tea, calm morning light, lots of clean negative space, no readable text."
+    },
+    {
+      "id": "photo_decision_fatigue",
+      "format": "photo",
+      "situation": "decision fatigue",
+      "hook": "Too many tabs open?",
+      "punch": "Pick one next step",
+      "proof": "48-hour intake follow-up",
+      "message": "A short intake and assessment helps turn vague stress into a concrete first plan.",
+      "cta": "LEARN_MORE",
+      "imageBrief": "Realistic editorial photo of an organized desk after decluttering, soft green and cream palette, no logos, no readable text."
+    },
+    {
+      "id": "test_relationship_pattern",
+      "format": "test",
+      "situation": "relationship pattern review",
+      "hook": "Patterns repeat",
+      "punch": "when they stay unnamed",
+      "proof": "Assessment-led session plan",
+      "message": "Use a structured reflection report as the starting point for the next conversation.",
+      "cta": "LEARN_MORE",
+      "imageBrief": "Abstract paper report layout with blank cards and subtle lines, no words, no symbols that imply diagnosis."
+    },
+    {
+      "id": "text_first_session",
+      "format": "text",
+      "situation": "first-session anxiety",
+      "hook": "First session?",
+      "punch": "Bring a map",
+      "proof": "Simple intake, assessment, guided review",
+      "message": "The package gives both you and the coach a shared starting point before the conversation begins.",
+      "cta": "LEARN_MORE",
+      "imageBrief": "Minimal studio interior with comfortable chair and side table, bright natural light, reassuring but professional, no readable text."
+    }
+  ]
+}

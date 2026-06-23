@@ -1,0 +1,19 @@
+{
+  "graphApiVersion": "v24.0",
+  "status": "PAUSED",
+  "campaignObjective": "OUTCOME_LEADS",
+  "buyingType": "AUCTION",
+  "pageIdEnv": "META_PAGE_ID",
+  "adAccountIdEnv": "META_AD_ACCOUNT_ID",
+  "pixelIdEnv": "META_PIXEL_ID",
+  "accessTokenEnv": "META_ACCESS_TOKEN",
+  "utm": {
+    "source": "meta",
+    "medium": "paid_social"
+  },
+  "dryRunOnly": true,
+  "notes": [
+    "This template generates redacted payloads only.",
+    "Keep real live writes in a private fork behind an explicit --execute flag and account-level review."
+  ]
+}

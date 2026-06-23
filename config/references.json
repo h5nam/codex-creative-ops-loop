@@ -1,0 +1,82 @@
+{
+  "collectionMethod": "Manual Meta Ad Library review exported into a reusable schema. Replace these rows with your own reference brands and observations.",
+  "referenceBrands": [
+    "Orange Counselor",
+    "BetterHelp-style direct response pages",
+    "Local coaching studios"
+  ],
+  "ads": [
+    {
+      "id": "ref01",
+      "brand": "Orange Counselor",
+      "segment": "young-professional",
+      "format": "text-poster",
+      "visual": "pastel card",
+      "hook": "burnout support package",
+      "proof": "structured care",
+      "cta": "learn_more",
+      "landing": "package page",
+      "policy_note": "Avoid implying the viewer has a medical condition."
+    },
+    {
+      "id": "ref02",
+      "brand": "Orange Counselor",
+      "segment": "first-timer",
+      "format": "text-poster",
+      "visual": "white card with one accent shape",
+      "hook": "first counseling starter",
+      "proof": "low-friction entry",
+      "cta": "learn_more",
+      "landing": "lead form",
+      "policy_note": "Use topic language instead of personal-attribute claims."
+    },
+    {
+      "id": "ref03",
+      "brand": "Local coaching studio",
+      "segment": "region",
+      "format": "text-poster",
+      "visual": "typographic card",
+      "hook": "local guided support",
+      "proof": "clear session structure",
+      "cta": "learn_more",
+      "landing": "root",
+      "policy_note": "Location targeting is fine but avoid over-personalization."
+    },
+    {
+      "id": "ref04",
+      "brand": "Assessment-led service",
+      "segment": "test",
+      "format": "report-card motif",
+      "visual": "paper report on desk",
+      "hook": "assessment interpretation",
+      "proof": "expert review",
+      "cta": "learn_more",
+      "landing": "assessment page",
+      "policy_note": "Do not imply diagnosis from an ad."
+    },
+    {
+      "id": "ref05",
+      "brand": "BetterHelp-style page",
+      "segment": "young-professional",
+      "format": "photo",
+      "visual": "calm desk lifestyle",
+      "hook": "overthinking and decision fatigue",
+      "proof": "simple next step",
+      "cta": "learn_more",
+      "landing": "quiz page",
+      "policy_note": "Keep sensitive-condition wording contextual."
+    },
+    {
+      "id": "ref06",
+      "brand": "Local coaching studio",
+      "segment": "offer",
+      "format": "text-poster",
+      "visual": "white card",
+      "hook": "starter package",
+      "proof": "limited cohort",
+      "cta": "learn_more",
+      "landing": "package page",
+      "policy_note": "Use real scarcity only."
+    }
+  ]
+}

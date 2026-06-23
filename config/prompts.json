@@ -1,0 +1,17 @@
+{
+  "imagePromptTemplate": [
+    "Create a production-ready paid social background image for {brandName}.",
+    "Audience: {audience}.",
+    "Offer: {offer}.",
+    "Creative situation: {situation}.",
+    "Reference pattern to borrow: {referencePattern}.",
+    "Image brief: {imageBrief}",
+    "Brand voice: {voice}.",
+    "Use the brand palette direction: {palette}.",
+    "Leave clean negative space for Codex to overlay the headline and proof later.",
+    "Do not include readable text, logos, trademarks, UI screenshots, or claims inside the image.",
+    "Avoid implying the viewer personally has a sensitive trait or condition."
+  ],
+  "referencePatternFallback": "structured direct-response ad: one clear focal scene, quiet palette, strong negative space, simple conversion intent",
+  "copyOverlayRule": "Codex overlays hook, punch, proof, CTA, and UTM labels after image generation so text variation stays deterministic."
+}

@@ -1,0 +1,23 @@
+{
+  "name": "codex-creative-ops-loop",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Sanitized reproducible Meta creative ops workflow for Codex show-and-tell.",
+  "scripts": {
+    "demo": "npm run setup:check && npm run refs:ingest && npm run analyze:refs && npm run creative:plan && npm run image:generate && npm run compose:cards && npm run meta:dry-run && npm run decode:leads && npm run report:weekly",
+    "setup:check": "node scripts/validate-config.mjs",
+    "setup:check:live": "node scripts/validate-config.mjs --strict-live",
+    "refs:ingest": "node scripts/ingest-references.mjs",
+    "analyze:refs": "node scripts/analyze-refs.mjs",
+    "creative:plan": "node scripts/build-creative-map.mjs",
+    "image:generate": "node scripts/generate-openai-images.mjs",
+    "compose:cards": "node scripts/compose-cards.mjs",
+    "meta:dry-run": "node scripts/meta-dry-run.mjs",
+    "decode:leads": "node scripts/decode-leads.mjs",
+    "report:weekly": "node scripts/weekly-report.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

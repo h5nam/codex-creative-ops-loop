@@ -1,0 +1,115 @@
+{
+  "name": "Example Wellness Studio",
+  "campaign": "starter_offer_202606",
+  "landingUrl": "https://example.com/lp/starter-offer",
+  "brandPositioning": "Structured one-on-one coaching for busy professionals who want a practical first step.",
+  "audience": {
+    "primary": "25-39 year-old professionals exploring structured support",
+    "situations": [
+      "burnout",
+      "decision fatigue",
+      "relationship pattern review",
+      "first-session anxiety"
+    ]
+  },
+  "offer": {
+    "name": "Starter Clarity Package",
+    "headline": "Assessment + 3 coaching sessions",
+    "proof": "Assessment, written summary, and three guided sessions",
+    "cta": "LEARN_MORE"
+  },
+  "voice": [
+    "calm",
+    "specific",
+    "non-diagnostic",
+    "actionable"
+  ],
+  "policy": [
+    "Do not imply that the viewer has a medical or mental-health condition.",
+    "Describe situations and support options instead of asserting personal attributes.",
+    "Do not use fake scarcity or unverified outcome claims.",
+    "Generate background imagery without readable text; Codex adds text later."
+  ],
+  "palette": {
+    "text": {
+      "bg": "#F8F5EF",
+      "ink": "#18201B",
+      "accent": "#2F6B4F",
+      "chip": "#DDEADB"
+    },
+    "photo": {
+      "bg": "#121817",
+      "ink": "#FFFFFF",
+      "accent": "#D58A62",
+      "chip": "#F1DDD2"
+    },
+    "test": {
+      "bg": "#183026",
+      "ink": "#F8F5EF",
+      "accent": "#E7C66E",
+      "chip": "#DDEADB"
+    }
+  },
+  "creativeDefaults": {
+    "imageModel": "gpt-image-2",
+    "imageSize": "1024x1024",
+    "imageQuality": "low",
+    "outputFormat": "png"
+  },
+  "assets": [
+    {
+      "id": "logo",
+      "path": "assets/brand/logo.png",
+      "required": false,
+      "note": "Optional. Keep private brand files out of public forks unless licensed for sharing."
+    },
+    {
+      "id": "product-photo",
+      "path": "assets/brand/product-photo.png",
+      "required": false,
+      "note": "Optional reference image for human review or future edit workflows."
+    }
+  ],
+  "creativeAngles": [
+    {
+      "id": "text_burnout_reset",
+      "format": "text",
+      "situation": "burnout reset",
+      "hook": "Burnout needs structure",
+      "punch": "not another tab",
+      "message": "Start with an assessment, then turn the result into three guided sessions.",
+      "proof": "Assessment + written summary + 3 sessions",
+      "imageBrief": "Warm desk scene, notebook and tea, calm morning light, lots of clean negative space, no readable text."
+    },
+    {
+      "id": "photo_decision_fatigue",
+      "format": "photo",
+      "situation": "decision fatigue",
+      "hook": "Too many tabs open?",
+      "punch": "Pick one next step",
+      "message": "A short intake and assessment helps turn vague stress into a concrete first plan.",
+      "proof": "48-hour intake follow-up",
+      "imageBrief": "Realistic editorial photo of an organized desk after decluttering, soft green and cream palette, no logos, no readable text."
+    },
+    {
+      "id": "test_relationship_pattern",
+      "format": "test",
+      "situation": "relationship pattern review",
+      "hook": "Patterns repeat",
+      "punch": "when they stay unnamed",
+      "message": "Use a structured reflection report as the starting point for the next conversation.",
+      "proof": "Assessment-led session plan",
+      "imageBrief": "Abstract paper report layout with blank cards and subtle lines, no words, no symbols that imply diagnosis."
+    },
+    {
+      "id": "text_first_session",
+      "format": "text",
+      "situation": "first-session anxiety",
+      "hook": "First session?",
+      "punch": "Bring a map",
+      "message": "The package gives both you and the coach a shared starting point before the conversation begins.",
+      "proof": "Simple intake, assessment, guided review",
+      "imageBrief": "Minimal studio interior with comfortable chair and side table, bright natural light, reassuring but professional, no readable text."
+    }
+  ]
+}
